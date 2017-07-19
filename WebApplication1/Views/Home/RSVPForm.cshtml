@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Models.GuestResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RSVPForm</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm())
+        {
+            <p>Name : </p>
+            <p>Email : </p>
+            <p>Phone : </p>
+            <p>Are you going? </p>
+            <p>Additional info : </p>
+        }
+    </div>
+</body>
+</html>
